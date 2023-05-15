@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Air Hockey Game</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+	<!-- partial:index.partial.html -->
+	<div class="table">
+		<p class="message">Use keyboard arrows to control left player. <a
+				href="https://codepen.io/allanpope/full/a01ddb29cbdecef58197c2e829993284/">Open in fullscreen</a>.</p>
+		<div class="table-inner">
+			<span class="table__goal-crease circle"></span>
+			<span class="table__faceoff table__faceoff--top-left circle"></span>
+			<span class="table__faceoff table__faceoff--bottom-left circle"></span>
+			<span class="table__blue-line"></span>
+			<span class="table__center-line"></span>
+			<span class="circle"></span>
+			<span class="table__blue-line table__blue-line--two"></span>
+			<span class="table__faceoff table__faceoff--top-right circle"></span>
+			<span class="table__faceoff table__faceoff--bottom-right circle"></span>
+			<span class="table__goal-crease table__goal-crease--two circle"></span>
+		</div>
+	</div>
+	<canvas id="canvas" class="table table--canvas" tabindex="0"></canvas>
+	<!-- partial -->
+	<script src="./script.js"></script>
+
+</body>
+
+</html>
